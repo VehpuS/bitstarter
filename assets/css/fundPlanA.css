@@ -57,8 +57,17 @@ p {
 .order {
     padding: 2% 0;
 }
+.actions {
+    background-color: #343434;
+    padding: 3% 0;
+}
 
-.video, .thermometer, .order, .social, .statistics{
+.actions p {
+    /* added without instruction  */
+    color: white;
+}
+
+.video, .thermometer, .order, .social, .statistics {
     text-align: center;
 }
 
