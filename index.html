@@ -10,12 +10,13 @@
     <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css">
     <script type="text/javascript" src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js"></script>
     <script type="text/javascript" src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap.js"></script>
+    <script type="text/javascript" src="assets/js/script.js"></script> 
     <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic'>
     <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,300,400,600,700,800'>
     <link rel="stylesheet" href="assets/css/fundPlanA.css">
     <!-- 
-	<script type="text/javascript" src="./assets/scripts/script.js"></script> - placeholder for client side js.
-	-->
+    <script type="text/javascript" src="./assets/scripts/script.js"></script> - placeholder for client side js.
+    -->
 </head>
 
 <body>
@@ -28,15 +29,20 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="#" class="brand">Bitstarter</a>
+                <a href="#" class="brand">
+                        Plan  A
+                </a>
                 <div class="nav-collapse collapse">
                     <ul class="nav">
                         <li class="active">
                             <a href="#">Home</a>
                         </li>
-                        <li><a href="#about">About</a>
+                        <li><a href="#about">About Plan A</a>
                         </li>
-                        <li><a href="#contact">Contact</a>
+                        <li><a href="#contact">How can I help?</a>
+                        </li>
+                        </li>
+                        <li><a href="#info">More Information</a>
                         </li>
                     </ul>
                 </div>
@@ -44,51 +50,55 @@
             </div>
         </div>
     </div>
-
-
     <div class="container">
-        <div class="row heading">
-            <div class="span12">
-                <h1>Bitstarter Title</h1>
+            <div class="titles row span12">
+                <div class="span12">
+                    <br /><br /><br /><br />
+                    <p class="lead subheading"><strong class="heading"><i class="icon-calendar-empty"></i>Fund Plan A</strong> Support true collaborative event planning.</p>
+                </div>
             </div>
-        </div>
-        <!-- <div class="span2 logo">
-                  Logo
-              </div>
-              <div class="span5 blank">
-                  Blank
-              </div>
-              <div class="span4 about">
-                  About
-              </div>
-                        </div> -->
-        <div class="row-fluid subheading">
-            <div class="span12">
-                <p class="lead">This is my first bitstarter project. It is part of my Stanford Startup Engineering class.</p>
-            </div>
-        </div>
         <div class="row-fluid pitch">
             <div class="span5 offset1 video">
-                <img class="img-polaroid" src="http://placehold.it/480x300">
+                <div id="myCarousel" class="carousel slide">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                        <li data-target="#myCarousel" data-slide-to="4"></li>
+                    </ol>
+                    <!-- Carousel items -->
+                    <div class="carousel-inner">
+                        <div class="active item"><img src="assets/img/party.jpg" /></div>
+                        <div class="item"><img src="assets/img/hike.jpg" /></div>
+                        <div class="item"><img src="assets/img/meal.jpg" /></div>
+                        <div class="item"><img src="assets/img/concert.jpg" /></div>
+                        <div class="item"><img src="assets/img/trip.jpg" /></div>
+                    </div>
+                    <!-- Carousel nav -->
+                    <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+                    <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+                </div>
+
             </div>
             <div class="span5 actions">
                 <div class="span8 offset2">
                     <div class="statistics">
                         <div class="span4">
                             <div class="linediv-l">
-                                <h3>1000</h3>
+                                <h3>1</h3>
                                 <p>backers</p>
                             </div>
                         </div>
                         <div class="span4">
                             <div class="linediv-c">
-                                <h3>6000</h3>
-                                <p>of 10,000</p>
+                                <h3>1</h3>
+                                <p>of 100,000</p>
                             </div>
                         </div>
                         <div class="span4">
                             <div class="linediv-r">
-                                <h3>30</h3>
+                                <h3>90</h3>
                                 <p>days left</p>
                             </div>
                         </div>
@@ -96,82 +106,91 @@
                 </div>
                 <div class="span10 offset1">
                     <div class="thermometer progress active">
-                        <div class="bar bar-success" style="width: 60%"></div>
-                        <div class="bar bar-warning" style="width: 40%"></div>
+                        <div class="bar bar-success" style="width: 1%"></div>
+                        <div class="bar bar-warning" style="width: 99%"></div>
                     </div>
-                </div>
-                <div class="span6 offset3 order">
-                    <button class="btn btn-success btn-large">Preorder</button>
                 </div>
                 <div class="span6 offset3 social">
-                    <button class="btn btn-twitter"><i class="icon-twitter"> | Twitter</i>
+                    <a href="mailto:vehpus@plan-a.mygbiz.com"><button class="btn btn-info">Contact Me For Inquiries
+                    </button></a>
+                    <br><br>
+                    <a href="https://twitter.com/intent/user?screen_name=planacontact"><button class="btn btn-twitter"><i class="icon-twitter"> | Twitter</i>
+                    </button></a>
+                    <button class="btn btn-facebook disabled"><i class="icon-facebook"> | Facebook</i>
                     </button>
-                    <button class="btn btn-facebook"><i class="icon-facebook"> | Facebook</i>
-                    </button>
+                <div class="span6 offset3 order">
+                    <button class="btn btn-success btn-large disabled">Preorder</button>
+                </div>
                 </div>
             </div>
         </div>
+        
+        <div class="extra-info">
+            <div class="row-fluid section1">
+                <div class="span5 copy" id="about">
+                    <p>
+                        <h3>What is Plan A</h3>
+                        <span>Plan A is an idea for a service that will allow people to plan events in a more natural way.</span>
+                        <span><ul>
+                            <li>Plan A will allow you to create events without defining dates - planning starts before that!</li>
+                            <li>Plan A will let you host discussions and votes regarding the nature of your events - whether with collaborators or fans.</li>
+                            <li>Plan A will help you chose the details of your event, from the venue to the gift you're going to buy, helping you plan ahead for it's price.</li>
+                            <li>Plan A will help you invite your events' participants from a variety of sources (using API's) and raise the funds forthose who plan to attend.</li>
+                        </ul></span>
+                    </p>
+                </div>
+                <div class="span5 offset1 copy copy-right" id="contact">
+                    <p>
+                        <h3>How can I help?</h3>
+                        <span>
+                            In the coming weeks I will continue to flesh out a proof of concept of Plan A in form of a node.js web app, as part of Stanford and Coursera's Startup Engineering Course. When I feel I have something to show for my efferts, this site will open for donations.
+                        </span>
+                        <br /><br />
+                        <span>
+                            In the meantime, and regardless of how the campaign goes, I will need help making this idea come to life. I have allready completed a full technical specification and begun making desktop and mobile mockup to plan the app, but I will need as much as I can get!
+                        </span>
+                        <br /><br />
+                        <a href="mailto:vehpus@plan-a.mygbiz.com"><button class="btn btn-info">Mail me for further inquiries!
+                        </button></a>
+                    </p>
+                </div>
+            </div>
 
-        <div class="row-fluid section1">
-            <div class="span5 offset1 asset">
-                <img src="http://placehold.it/480x300" class="img-polaroid">
-            </div>
-            <div class="span5 copy">
-                <p>
-                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum dignissimos recusandae fugit possimus similique nihil nesciunt minima tempore dolore nam. Ab autem rerum molestias eum sit illo a corrupti odit!</span>
-                    <span>Odio, quisquam, eius, ea voluptas similique mollitia cumque ad magnam facilis nisi recusandae maiores at sunt ipsum perferendis accusamus pariatur obcaecati neque illo libero facere animi dolore voluptatem rerum veritatis.</span>
-                    <span>Excepturi, illo, dolorem ipsum doloremque repudiandae soluta. Quam, nostrum, praesentium omnis at nisi iusto asperiores soluta et quae dolor accusamus quas ea odio totam cupiditate itaque alias rerum quidem quis?</span>
-                    <span>Reprehenderit, nihil, molestias, minus facere quaerat accusamus quidem officiis aperiam corrupti quisquam illo cumque incidunt odio sunt repudiandae cupiditate laboriosam iste cum maxime nesciunt vitae itaque quas repellat iusto necessitatibus.</span>
-                    <span>Sunt, facilis, rerum, sapiente vel neque at qui eius soluta atque placeat incidunt dolore hic repellat. Distinctio, quibusdam, fuga asperiores impedit totam voluptatum esse ducimus reiciendis officiis possimus maxime molestiae.</span>
-                </p>
-            </div>
-        </div>
-        <div class="row-fluid section2">
-            <div class="span5 offset1 copy copy-right">
-                <p>
-                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum dignissimos recusandae fugit possimus similique nihil nesciunt minima tempore dolore nam. Ab autem rerum molestias eum sit illo a corrupti odit!</span>
-                    <span>Odio, quisquam, eius, ea voluptas similique mollitia cumque ad magnam facilis nisi recusandae maiores at sunt ipsum perferendis accusamus pariatur obcaecati neque illo libero facere animi dolore voluptatem rerum veritatis.</span>
-                    <span>Excepturi, illo, dolorem ipsum doloremque repudiandae soluta. Quam, nostrum, praesentium omnis at nisi iusto asperiores soluta et quae dolor accusamus quas ea odio totam cupiditate itaque alias rerum quidem quis?</span>
-                    <span>Reprehenderit, nihil, molestias, minus facere quaerat accusamus quidem officiis aperiam corrupti quisquam illo cumque incidunt odio sunt repudiandae cupiditate laboriosam iste cum maxime nesciunt vitae itaque quas repellat iusto necessitatibus.</span>
-                    <span>Sunt, facilis, rerum, sapiente vel neque at qui eius soluta atque placeat incidunt dolore hic repellat. Distinctio, quibusdam, fuga asperiores impedit totam voluptatum esse ducimus reiciendis officiis possimus maxime molestiae.</span>
-                </p>
-            </div>
-            <div class="span5 asset">
-                <img src="http://placehold.it/480x300" class="img-polaroid">
-            </div>
-        </div>
 
-        <div class="row-fluid faq">
-            <div class="span10 offset1">
-                <h3>FAQ</h3>
-                <div class="accordion" id="accordion2">
-                    <div class="accordion-group">
-                        <div class="accordion-heading">
-                            <a href="#collapseOne" class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2">
-            						What does FAQ stand for?
-            					</a>
+            <div class="row-fluid faq">
+                <div class="span10 offset1">
+                    <h3 id="info">More information</h3>
+                    <div class="accordion" id="accordion2">
+                        <div class="accordion-group">
+                            <div class="accordion-heading">
+                                <a href="#collapseOne" class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2">
+                                        Where did the idea come from?
+                                    </a>
+                            </div>
+                            <div class="accordion-body collapse" id="collapseOne">
+                                <div class="accordion-inner">
+                                    Trying to get input from my friends when they could meet up to celebrate my birthday. The whole process required me to use three different tools, despite the fact that it made sense, in my head at least, that everything could revolve an event page.
+                                </div>
+                            </div>
                         </div>
-                        <div class="accordion-body collapse" id="collapseOne">
-                            <div class="accordion-inner">Frequently Asked Questions</div>
-                        </div>
-                    </div>
-                    <div class="accordion-group">
-                        <div class="accordion-heading">
-                            <a href="#collapseTwo" class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2">
-            						What's a Frequently Asked Question
-            					</a>
-                        </div>
-                        <div class="accordion-body collapse" id="collapseTwo">
-                            <div class="accordion-inner">A question which is commonly asked by users.</div>
+                        <div class="accordion-group">
+                            <div class="accordion-heading">
+                                <a href="#collapseTwo" class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2">
+                                        Who are you?
+                                    </a>
+                            </div>
+                            <div class="accordion-body collapse" id="collapseTwo">
+                                <div class="accordion-inner">My name is Moshe Jonathan Gordon Radian (not a practical name, I know). I am passionate about human thought and it's combination with computers. You can read more about me at: <a href="http://about.me/vehpus">http://about.me/vehpus</div>. 
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="row-fluid footer">
-            <div class="span12">
-                <p>This work is licensed under the <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC By-SA 3.0</a>, without all the cruft that would otherwise be put at the bottom of the page</p>
+            <div class="row-fluid footer">
+                <div class="span12">
+                    <p>This work is licensed under the <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC By-SA 3.0</a>, without all the cruft that would otherwise be put at the bottom of the page</p>
+                </div>
             </div>
         </div>
     </div>

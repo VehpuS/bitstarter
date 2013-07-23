@@ -1,7 +1,7 @@
 /* Large desktop view */
 @media (min-width: 980px) {
     body {
-        padding-top: 60px;
+        padding-top: 30px;
     }
     .linediv-l {
         border-right: 1px white solid;
@@ -34,8 +34,23 @@ body {
 padding-bottom: 40px; */
 }
 
+.titles {
+    background-image:url("../img/paper-scrap.jpg");
+    background-repeat:repeat-x;
+}
+
+.heading {
+    font-size: 36px;
+    font-weight: 500;
+}
+
 .heading, .subheading {
     font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+}
+
+.brand {
+     font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+     font-weight: 700;
 }
 
 p.lead {
@@ -59,7 +74,7 @@ p {
 }
 .actions {
     background-color: #343434;
-    padding: 3% 0;
+    padding: 1% 0;
 }
 
 .actions p {
@@ -98,6 +113,18 @@ p {
 .footer a {
     color: #ccccff;
 }
+
+.extra-info {
+    padding: 5% 5%;
+    color: white;
+    background-color: #333333;
+}
+
+.faq {
+    background-color: #EEEEEE;
+    color: black;
+}
+
 
 /* 
 .navigation, .pitch, .section1, .section2, .faq, .footer {

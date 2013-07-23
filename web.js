@@ -7,6 +7,7 @@ var express = require('express');
 var app = express.createServer(express.logger());
 
 app.use("/assets", express.static(__dirname + '/assets'));
+app.use("/assets/img", express.static(__dirname + '/assets/img'));
 //app.use("/styles", express.static(__dirname + '/styles'));
 
 app.get('/', function(request, response) {
