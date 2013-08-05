@@ -37,6 +37,7 @@ padding-bottom: 40px; */
 .titles {
     background-image:url("../img/paper-scrap.jpg");
     background-repeat:repeat-x;
+    padding-top: 70px;
 }
 
 .heading {
@@ -52,6 +53,10 @@ padding-bottom: 40px; */
      font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
      font-weight: 700;
 }
+
+/* .navbar-inner {
+        background-color: #DD3434;
+} */
 
 p.lead {
     padding-top: 15px;
@@ -70,7 +75,7 @@ p {
     padding: 2.5% 0;
 }
 .order {
-    padding: 2% 0;
+    padding: 4% 0;
 }
 .actions {
     background-color: #343434;
@@ -121,7 +126,7 @@ p {
 }
 
 .faq {
-    background-color: #EEEEEE;
+    background-color: #DDDDDD;
     color: black;
 }
 
