@@ -2,6 +2,7 @@
 @media (min-width: 980px) {
     body {
         padding-top: 30px;
+        font-size: 100%;
     }
     .linediv-l {
         border-right: 1px white solid;
@@ -11,8 +12,30 @@
     }
 }
 
+/* To deal with the mid-range */
+@media (max-width: 980px) {
+    body {
+        font-size: 75%;
+    }
+    .subheading, strong.heading {
+        margin: 0 auto;
+        text-align: center;
+    }
+    strong.heading {
+        display: block;
+    }
+      /* http://support.addthis.com/customer/portal/questions/1136093-share-buttons-in-center-position */      
+     div.addthis_toolbox {
+      margin: 0 auto;
+      width: 300px;    
+     }
+}
+
 /* landscape phones and down */
 @media (max-width: 480px) {
+    body {
+        font-size: 40%
+    }
     .copy {
         padding: 2.5% 10%;
     }
@@ -37,21 +60,37 @@ padding-bottom: 40px; */
 .titles {
     background-image:url("../img/paper-scrap.jpg");
     background-repeat:repeat-x;
-    padding-top: 70px;
+}
+
+.titles:first-child{
+    padding-top: 80px;
 }
 
 .heading {
-    font-size: 36px;
+    /*position: relative;*/
+    font-size: 4em;
     font-weight: 500;
+}
+
+.subheading {
+    font-size: 3em;
 }
 
 .heading, .subheading {
     font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
 }
 
+.sharebuttons {
+    padding-bottom: 10px;
+}
+
 .brand {
      font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
      font-weight: 700;
+}
+
+.item > img {
+    margin: 0 auto;
 }
 
 /* .navbar-inner {
@@ -101,6 +140,7 @@ p {
     padding-top: 2.5%;
     padding-bottom: 2.5%;
     text-align: justify;
+    font-size: 14px;
 }
 
 .asset {
@@ -126,8 +166,9 @@ p {
 }
 
 .faq {
-    background-color: #DDDDDD;
+    background-color: #EEEEEE;
     color: black;
+    font-size: 14px;
 }
 
 
